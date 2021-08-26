@@ -10,12 +10,7 @@ public class thinkful_number_drills_pixelar_planning {
 
         public static boolean isDivisible(int wallLength, int pixelSize) {
 
-            if(wallLength%pixelSize == 0){  //  ділення з остачею
-                return true;
-
-            }else{
-                return false;
-            }
+             return wallLength%pixelSize == 0;
 
 
 
